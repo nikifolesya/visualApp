@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #dfdfdf;
+    width: 100vw;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* .navItem {
+    margin-right: 15px;
+} */
+
+.navItem button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.navItem button:hover {
+    background-color: #dfdfdf;
+}
+
+/* .navItem button.active {
+    background-color: #dfdfdf;
+} */
